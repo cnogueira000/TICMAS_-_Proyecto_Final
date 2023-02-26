@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Curriculum Vitae - Proyecto Final</title>
+</head>
+<body class="cuerpo">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top menu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <i class="fa fa-bars"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">                    
+                    <li class="nav-item"><a href="index.html" class="nav-link  inicio">Inicio</a></li>
+                    <li class="nav-item"><a href="#datos_pers" class="nav-link datos_pers">Datos Personales</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a href="#exp_lab" class="nav-link exp_lab">Experiencia Laboral</a></li>
+                    <li class="nav-item"><a href="#educacion" class="nav-link educacion">Educación</a></li>                
+                    <li class="nav-item"><a href="#capacitacion" class="nav-link capacitacion">Capacitación</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link contacto">Contacto</a></li>
+                    <li class="nav-item"><a href="#redes" class="nav-link redes">Redes</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="flex-container row">
+    <article class="col-sm-3 datos">
+        <section>
+            <p class="h1">SASTRE</p>
+            <p class="h1">Melina</p>
+            <p class="h1">Laura</p>
+            <p>Licenciada en Trabajo Social</p>
+            <p>MT N° 19088</p>
+            
+            <img src="images/avatar.png" alt="Foto de la persona a la que se refiere el CV" title="Melina L. Sastre" class="rounded-circle img-fluid avatar">
+            
+            <!-- Datos Personales - Inicio -->
+            
+            <h2 id="datos_pers" class="offset">Datos de personales</h2>
+            
+            <h4>Nacimiento</h4>
+            <p>27/04/1978</p>
+
+            <h4>Edad</h4>
+            <p>45</p>
+
+            <h4>DNI</h4>
+            <p>26590047</p>
+
+            <h4>Dirección</h4>
+            <p>Calle N° 24 - 212 e/ 38 y 39</p>
+            
+            <h4>Localidad</h4>
+            <p>Colón - Pcia. de Bs. As. - Argentina</p>
+
+            <h4>Nacionalidad</h4>
+            <p>Argentina</p>
+
+            <!-- Datos Personales - Fin -->
+
+            <!-- Habilidades - Inicio -->
+
+            <h2 id="habilidades" class="offset">Habilidades</h2>
+
+            <p>Capacidad de liderazgo</p>
+            <div class="contenedor_barra">
+                <div class="barra" style="width:100%" title="100%">100%</div>
+            </div>
+            <p>Trabajo en equipo</p>
+            <div class="contenedor_barra">
+                <div class="barra" style="width:100%" title="100%">100%</div>
+            </div>
+            <p>Comunicación</p>
+            <div class="contenedor_barra">
+                <div class="barra" style="width:100%" title="100%">100%</div>
+            </div>
+            <p>Operatividad</p>
+            <div class="contenedor_barra">
+                <div class="barra" style="width:100%" title="100%">100%</div>
+            </div>
+
+            <h2>Idiomas</h2>
+            
+            <p>Inglés</p>
+            <div class="contenedor_barra">
+                <div class="barra" style="width:50%" title="40%">40%</div>
+            </div>
+
+            <!-- Habilidades - Fin -->
+
+        </section>
+    </article>
+    <aside class="col-sm-9">
+        <div class="cronologia">
+
+        <!-- Experiencia Laboral - Inicio -->
+
+        <h2 id="exp_lab" class="offset">Experiencia</h2>
+
+        <div>
+            <h3>Actual</h3>
+        
+            <button type="button" id="btn-off-actual" class="boton">-</button>
+            <button type="button" id="btn-on-actual" class="boton">+</button>
+    
+            <ul id="exp-actual" class="lista_00">
+                <li>Coordinadora Institucional de Políticas Estudiantiles (CIPE) en el Instituto Superior de Formación Docente y Técnica N° 124</li>
+                <li>Profesora de nivel superior en el Instituto Superior de Formación Docente y Técnica N° 124. Cátedras:
+                    <ul class="lista_01">
+                        <li>Tecnicatura Superior en Acompañamiento Terapéutico:
+                            <ul class="lista_02">
+                                <li>Psicologías de grupos</li>
+                                <li>Ética</li>
+                                <li>Interveción comunitaria y recursos sociales</li>                            
+                            </ul>
+                        </li>
+                        <li>Porfesorado de Educación Primaria:
+                            <ul class="lista_02">
+                                <li>Configuraciones culturales del sujeto educativo</li>
+                                <li>Psicología social e institucional</li>                            
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>            
+        </div>
+
+        <div>
+            <h3 >Previa</h3>
+        
+            <button type="button" id="btn-off-previa" class="boton">-</button>
+            <button type="button" id="btn-on-previa" class="boton">+</button>
+    
+            <ul id="exp-previa" class="lista_00">
+                <li>Coordinadora del Programa Provincial de Responsabilidad Social Compartida ENVIÓN ( Pcia. de Bs. As. ) - 2015 a 2019</li>
+                <li>Coordinadora del Programa Municipal SOY MAMÁ ( Municipalidad de Colón - Bs. As. ) - 2011 a 2019</li>
+                <li>Integrante del equipo técnico del Servicio Local de Protección y Promoción de los Derechos del Niño/a y Adolescentes ( Municipalidad de Colón - Bs. As. ) - 2010 a 2015</li>
+                <li>Gestión de proyecto y supervisión del Programa de Responsabilidad Compartida orientada a niños/as en situación de riesgo y vulnerabilidad social SON-RIENDO ( Municipalidad de Colón - Bs. As. ) - 2013</li>
+                <li>Coordinación de actividades grupales:
+                    <ul class="lista_01">
+                        <li>Comunicación, Integración y Pertenecia Grupal</li>
+                        <li>Problemáticas: Violencia, Comunicación, e Integración Grupal</li>
+                    </ul>
+                </li>
+                <li>Jornadas informativas, formativas y de integración para Padres, Docentes y Alumnos en las siguientes entidades educativas:
+                    <ul class="lista_01">
+                        <li>Escuela de Educación Secundaria N° 1 - José Manuel Estrada (Colón - Bs. As.)</li>
+                        <li>Escuela Normal Superior - Dr. Juan Bautista Marenzi (Colón - Bs. As.)</li>
+                        <li>Escuela Del Sol (Colón - Bs. As.)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+
+        <!-- Experiencia Laboral - Fin -->
+
+        <!-- Educación - Inicio -->
+
+        <h2 id="educacion" class="offset">Educación</h2>
+
+        <h5>2017/01 - 2020/09</h5>
+        <h3>Licenciada en Servicio Social</h3>
+        <p>Universidad Argentina John F. Kennedy - Sede Colegio San Juan ( CABA )</p>
+        <p>Perú 1156 - San Telmo - Ciudad Autónoma de Buenos Aires - Argentina</p>
+        <a href="https://www.kennedy.edu.ar/" target="_blank">Sitio WEB</a>
+
+        <h5>2017/01 - 2020/09</h5>
+        <h3>Técnica Superior en Trabajo Social</h3>
+        <p>Escuela de Psicología Social - Quilmes - Institución Educativa de Nivel Superior - DIPREGEP 5115</p>
+        <p>San Martín 238 e/ Saavedra y Paso - Quilmes - Buenos Aires - Argentina</p>
+        <a href="https://www.psicologiasocialhoy.com.ar/escuela/" target="_blank">Sitio WEB</a>
+
+        <h5>2017/01 - 2020/09</h5>
+        <h3>Técnica Superior en Psicología Social</h3>
+        <p>Escuela de Psicología Social del Sur - Institución Educativa de Nivel Superior - DGEGP A-1389</p>
+        <p>J. L. Borges 2315 - Palermo - Ciudad Autónoma de Buenos Aires - Argentina</p>
+        <a href="https://psicologiasocial.com.ar/" target="_blank">Sitio WEB</a>
+
+        <h5>2017/01 - 2020/09</h5>
+        <h3>Acompañante Terapéutico - Resolución 1014/14</h3>
+        <p>Escuela de Psicología Social - Quilmes - Institución Educativa de Nivel Superior - DIPREGEP 5115</p>
+        <p>San Martín 238 e/ Saavedra y Paso - Quilmes - Buenos Aires - Argentina</p>
+        <a href="https://www.psicologiasocialhoy.com.ar/escuela/" target="_blank">Sitio WEB</a>
+
+        <h5>2017/01 - 2020/09</h5>
+        <h3>Tramo de Formación Docente</h3>
+        <p>Instituto Superior de Formación Docente y Técnica N° 125 - Nicolás Avellaneda</p>
+        <p>Lamadrid 262 - Rojas - Buenos Aires - Argentina</p>
+        <a href="https://isfd125-bue.infd.edu.ar/" target="_blank">Sitio WEB</a>
+
+        <h5>2017/01 - 2020/09</h5>
+        <h3>Bachiller con Orientación Docente</h3>
+        <p>Escuela Normal Superior - Dr. Juan Bautista Marenzi</p>
+        <p>Calle 42 e/ 13 y 14 - Rojas - Buenos Aires - Argentina</p>
+        <a href="https://isfdyt124-bue.infd.edu.ar/" target="_blank">Sitio WEB</a>
+
+        <!-- Educación - Fin -->
+
+        <!-- Capacitación - Inicio -->
+
+        <h2 id="capacitacion" class="offset">Cursos de Capacitación</h2>
+
+        <h5>2020</h5>
+        <h3>Instructor en Arteterapia Infantil y Adolescencia (Diplomatura)</h3>
+        <p> Certificación Conjunta: Asociación de Profesionales Hospital de Niños de Buenos Aires y Profsalud</p>
+
+        <h5>2018</h5>
+        <h3>Capacitación sobre Ley 13298 "Promoción y Protección de los derechos del niño y/o adolescentes"</h3>
+
+        <h5>2016</h5>
+        <h3>Encuentro Regional del CPNyA (con sede en Junín) (Capacitación)</h3>
+
+        <h5>2013 - 2014 - 2015</h5>
+        <h3>Capacitación sobre problemática de abuso sexual Infantil</h3>
+
+        <h5>2013 - 2014</h5>
+        <h3>Capacitanción Sistema R.E.U.N.A  Registro Provincial estadístico de Niñez y Adolescencia</h3>
+
+        <h5>2012 - 2013 - 2014 - 2015</h5>
+        <h3>Capacitación sobre el abordaje a la problemática de violencia Intrafamiliar</h3>
+
+        <h5>2012</h5>
+        <h3>Capacitación sobre Servicios Locales en el marco de la ley 13298</h3>
+
+        <h5>2011</h5>
+        <h3>Capacitación sobre la ley  12569 "Violencia Familiar"</h3>
+
+        <!-- Capacitación - Fin -->
+
+        </div>
+    </aside>
+    </main>
+    <footer> <!--class="flex-container row"-->
+
+        <!-- Formulario de Contacto - Inicio -->
+
+        <h2 id="contacto" class="offset">Contacto</h2>
+
+        <div class="container">
+            <form action="" method="" class="formulario row">
+                <div class="col-sm-4">
+                    <div class="">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required class="form-control">
+                    </div>
+                    <div class="">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido" required class="form-control">
+                    </div>
+                    <div class="">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Escriba su email" required class="form-control">
+                    </div>
+				</div>
+                <div class="col-sm-8 mensaje">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" rows="8" placeholder="Escriba aquí su consulta" required class="form-control"></textarea>
+                </div>
+                    
+                <div class="row-sm-1">
+                    <input type="submit" id="consultar" value="Consultar" class="consultar">
+                </div>
+
+            </form>
+        </div>
+
+        <!-- Formulario de Contacto - Fin -->
+
+        <!-- Redes - Inicio -->
+
+        <div id="redes" class="offset">
+            
+            <a href="tel:+5492473453945" class="phone"></a>
+            <a href="https://api.whatsapp.com/send?phone=5492473453945" target="_blank" class="whatsapp"></a>
+            <a href="mailto:melisastre@hotmail.com" class="email"></a>
+            <a href="https://www.facebook.com/melina.sastre.9" target="_blank" class="facebook"></a>
+            <a href="http://instagram.com/querartes" target="_blank" class="instagram"></a>
+            <a href="http://linkedin.com/melisastre" target="_blank" class="linkedin"></a>
+
+        </div>
+
+        <!-- Redes - Fin -->
+
+        <p class="powerby">Desarrollado por CMN</p>
+                
+    </footer>
+    
+    <script src="js/function.js"></script>
+
+</body>
+</html>

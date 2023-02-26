@@ -1,0 +1,341 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 50;
+    line-height: 2rem;
+}
+
+.cuerpo {
+    margin-top: 4rem;
+    background-color: purple;
+}
+
+/* -- Inicio Estilo MENÚ -- */
+
+.menu {
+    background-color: purple;
+}
+
+.menu a {
+    color: white;
+    border-right: .1rem solid rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: purple;
+}
+
+.inicio::before{
+    content: "\f015";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.datos_pers::before{
+    content: "\f2c3";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.habilidades::before{
+    content: "\f085";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.exp_lab::before{
+    content: "\f0b1";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.educacion::before{
+    content: "\f19d";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.capacitacion::before{
+    content: "\f02d";
+    font-family: "FontAwesome";
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.contacto::before{
+    content: "\f0e6";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.redes::before{
+    content: "\f1d8";
+    font-family: "FontAwesome";
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.offset::before {
+    display: flex;
+    content: "";
+    height: 4rem;
+    margin: -2rem 0 0 0;
+}
+
+/* -- Fin Estilo MENÚ -- */
+
+/* -- Inicio Estilo ARTICLE -- */
+
+.datos {
+    color: white;
+    background-color: purple;
+}
+
+section {
+    margin: 0 .5rem 2rem .5rem;
+}
+
+.datos * {
+    color: white;
+}
+
+.datos h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.barra, .contenedor_barra {
+    border-radius: 1rem;
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.contenedor_barra {
+    background-color: white;
+    border: .1rem solid white;
+}
+
+.barra {
+    background-color: palevioletred;
+    text-align: center;
+}
+
+/* -- Inicio Estilo FOTO -- */
+
+.avatar {
+    background-color: white;
+    border: .5rem solid darkorchid;
+    box-shadow: 0 0 .7rem black;
+}
+
+/* -- Fin Estilo FOTO -- */
+
+/* -- Fin Estilo ARTICLE -- */
+
+
+/* -- Inicio Estilo ASIDE -- */
+
+aside {
+    background-color: white;
+    border-radius: 0 10rem 10rem 0;
+}
+
+.cronologia {
+    margin: 0 2rem 2rem 2rem;
+}
+
+
+aside h3 {
+    color: purple;
+    display:inline;
+}
+
+aside h2 {
+    color: blueviolet;
+}
+
+aside h5 {
+    color: dimgray;
+    line-height: 1.5em;
+}
+
+aside h5::before {
+    content: "\f274";
+    font-family: "FontAwesome";
+    color: dimgray;
+    margin-right: .5rem;
+}
+
+/* -- Inicio Estilo LISTAS -- */
+
+.lista_00, .lista_01, .lista_02 {
+    list-style-type: none;
+}
+
+.lista_00 {
+    margin-left: 1rem;
+}
+
+.lista_00 li::before {
+    content: "\f111";    
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    color: purple;
+  }
+
+  .lista_00 .lista_01 li::before {
+    content: "\f10c";
+  }
+
+  .lista_00 .lista_01 .lista_02 li::before {
+    content: "\f0c8";
+  }
+
+li {
+    position: relative;
+    padding-left: 1.5rem;
+}
+/* -- Fin Estilo LISTAS -- */
+
+/* -- Fin Estilo ASIDE -- */
+
+/* -- Inicio Estilo FOOTER -- */
+
+footer {
+    color: white;
+    background-color: purple;
+    margin: 0 2rem;
+}
+
+footer p {
+    color: white;
+}
+
+#redes {
+    margin: auto;
+    text-align: center;
+}
+
+
+#redes a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 .3rem;
+    color: white;
+}
+
+#redes a:hover{
+    opacity: .3;
+    transition: .5s;
+}
+
+.phone::before{
+    content: "\f10b";
+    font-family: "FontAwesome";
+}
+
+.whatsapp::before{
+    content: "\f232";
+    font-family: "FontAwesome";
+}
+
+.email::before{
+    content: "\f003";
+    font-family: "FontAwesome";
+}
+
+.facebook::before{
+    content: "\f09a";
+    font-family: "FontAwesome";
+}
+
+.instagram::before{
+    content: "\f16d";
+    font-family: "FontAwesome";
+}
+
+.linkedin::before{
+    content: "\f0e1";
+    font-family: "FontAwesome";
+}
+
+/* -- Inicio Estilo FORMULARIO -- */
+
+.formulario input, .formulario textarea{
+    background-color: white;
+    border:.1rem solid lightpink;
+    border-radius: .5rem;
+}
+
+.formulario input:hover, .formulario textarea:hover{
+    outline: .2rem solid salmon;
+    border-radius: .5rem;
+    transition: .5s;
+}
+
+.formulario input:focus, .formulario textarea:focus{
+    outline: .2rem solid lightpink;    
+    border:.1rem solid lightpink;
+}
+
+.mensaje{
+    padding: auto;
+}
+.mensaje textarea{
+    resize: none;
+}
+.consultar{
+    margin-top: 1%;
+}
+
+/* -- Fin Estilo FORMULARIO -- */
+
+.powerby {
+    text-align: center;
+}
+
+.powerby::before {
+    content: "< < < ";
+    opacity: .5;
+}
+
+.powerby::after {
+    content: " > > >";
+    opacity: .5;
+}
+
+/* -- Fin Estilo FOOTER -- */
+
+/* -- Inicio Estilo BOTONES -- */
+
+.boton {
+    font-weight: bold;
+    color: purple;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.2rem;
+    border-radius: 50%;
+    border: .15rem solid purple;
+    margin: .5rem;
+    display: inline;
+}
+
+.boton:hover {
+    color: blueviolet;
+    border: .15rem solid blueviolet;
+    transition: .5s;
+}
+
+/* -- Fin Estilo BOTONES -- */
