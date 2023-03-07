@@ -15,6 +15,19 @@
     background-color: purple;
 }
 
+.menu-boton::before {  
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    color: lightpink;
+    display: inline;
+}
+
+.menu-boton:hover {  
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    opacity: .5;
+}
+
 .menu a {
     color: white;
     border-right: .1rem solid rgba(255, 255, 255, 0.5);
@@ -94,14 +107,18 @@
 
 /* -- Fin Estilo MENÚ -- */
 
+.principal{
+    background-color: purple;
+    background-image: linear-gradient( purple 5%, #aa1177 15% 85%, purple 95%);
+}
+
 /* -- Inicio Estilo ARTICLE -- */
 
 .datos {
     color: white;
-    background-color: purple;
 }
 
-section {
+article section {
     margin: 0 .5rem 2rem .5rem;
 }
 
@@ -216,6 +233,7 @@ li {
 footer {
     color: white;
     background-color: purple;
+    background-image: linear-gradient( purple, purple);
     margin: 0 2rem;
 }
 
@@ -318,7 +336,7 @@ footer p {
 
 /* -- Fin Estilo FOOTER -- */
 
-/* -- Inicio Estilo BOTONES -- */
+/* -- Inicio Estilo BOTONES MAS y MENOS -- */
 
 .boton {
     font-weight: bold;
